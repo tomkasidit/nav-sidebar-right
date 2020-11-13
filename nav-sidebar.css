@@ -1,0 +1,76 @@
+#btn-openNav {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    cursor: pointer;
+}
+
+.closebtn {
+    color: white;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    height: 61px;
+    width: 230px;
+    text-align: left;
+    display: block;
+
+    background: linear-gradient(to right,#555555 50%,#2d2b28 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.closebtn:hover {
+    background-position: left bottom;
+    background-color: #555555;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.navR-header {
+    width: 230px;
+    height: 25px;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    padding: 1px 15px 1px 10px;
+    margin: 0;
+    position: fixed;
+}
+
+.navR-header h5 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.navR-content {
+    padding: 0px 15px 5px 10px;
+    bottom: 0;
+    width: 230px;
+    position: fixed;
+    height: calc(100vh - 135px);
+}
+
+.sidenavR {
+    background-color: #2d2b28;
+    height: calc(100vh - 50px);
+    width: 0px;
+    overflow-x: hidden;
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 50px;
+    transition: .5s;
+    z-index: 1;
+}  

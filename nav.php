@@ -1,6 +1,6 @@
 <!-- button open nav sidebar right -->
 
-<img id="btn-openNav" src="<?= $web_server ?>/images/add-button-b.png" onclick="openNavR()">
+<img id="btn-openNav" src="#" onclick="openNavR()">
 
 <!-- nav sidebar right -->
 
